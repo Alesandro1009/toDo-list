@@ -1,0 +1,25 @@
+.filters {
+	margin-top: 20px;
+	.filter__link {
+		margin: 0 1em;
+		font-size: 200%;
+	}
+	.fa-list-ul {
+		color: #3498db;
+	}
+	.fa-times {
+		color: #e74c3c;
+	}
+	.fa-check {
+		color: #2ecc71;
+	}
+	.filter__link i {
+		transition: transform 0.5s ease;
+		&:hover {
+			transform: scale(1.1);
+		}
+		&:active {
+			transform: scale(0.95);
+		}
+	}
+}

@@ -1,0 +1,33 @@
+.app__form {
+	width: 100%;
+	display: flex;
+	border-top: 2px solid rgba(0, 0, 0, 0.39);
+	padding-top: 10px;
+	border-radius: 1px;
+	.app__form__input {
+		width: 100%;
+		border-radius: 5px;
+		padding: 0.5rem 1rem;
+		background: #e8ebed;
+		margin: 0;
+		outline: 0;
+		border: 2px solid #e8ebed;
+		font-size: 22px;
+		transition: 0.2s linear;
+		&:focus {
+			background-color: #fff;
+		}
+	}
+	.app__form__btn {
+		border-radius: 5px;
+		width: 40px;
+		border: none;
+		background-color: rgb(206, 240, 178);
+		margin-left: 3px;
+		cursor: pointer;
+		transition: all 0.2s ease;
+		&:hover {
+			background-color: rgb(186, 236, 145);
+		}
+	}
+}

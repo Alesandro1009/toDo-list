@@ -1,0 +1,11 @@
+.app__list {
+	font-size: 100%;
+	list-style: none;
+	width: 100%;
+	overflow-y: scroll;
+	margin-top: 2rem;
+	display: flex;
+	height: auto;
+	max-height: 500px;
+	flex-direction: column;
+}

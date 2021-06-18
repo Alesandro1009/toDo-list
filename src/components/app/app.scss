@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #c9b6af;
+	background: linear-gradient(45deg, #fd746c, #ff9068);
+	height: 100%;
+}
+.app {
+	min-width: 500px;
+	min-height: 800px;
+	max-height: 100%;
+	background: #fafafa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(25, 25, 25, 0.25);
+	padding: 3rem;
+	margin-top: 60px;
+}
